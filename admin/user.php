@@ -43,7 +43,6 @@ $db = new db_class();
                         <thead>
                             <tr>
                                 <th>Username</th>
-                                <th>Password</th>
                                 <th>Name</th>
                                 <th>Action</th>
                             </tr>
@@ -57,7 +56,6 @@ $db = new db_class();
 
                                 <tr>
                                     <td><?php echo $fetch['username'] ?></td>
-                                    <td><?php echo $db->hide_pass($fetch['password']) ?></td>
                                     <td><?php echo $fetch['firstname'] . " " . $fetch['lastname'] ?></td>
                                     <td>
                                         <div class="dropdown">
@@ -195,12 +193,6 @@ $db = new db_class();
 
     </div>
     <!-- End of Page Wrapper -->
-
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top">
-        <i class="fas fa-angle-up"></i>
-    </a>
-
 
     <!-- Add User Modal-->
     <div class="modal fade" id="addModal" tabindex="-1" aria-hidden="true">

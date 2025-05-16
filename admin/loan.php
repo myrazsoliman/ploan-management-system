@@ -433,12 +433,6 @@ $db = new db_class();
 	</div>
 	<!-- End of Page Wrapper -->
 
-	<!-- Scroll to Top Button-->
-	<a class="scroll-to-top rounded" href="#page-top">
-		<i class="fas fa-angle-up"></i>
-	</a>
-
-
 	<!-- Add Loan Modal-->
 	<div class="modal fade" id="addModal" aria-hidden="true">
 		<div class="modal-dialog modal-lg">
