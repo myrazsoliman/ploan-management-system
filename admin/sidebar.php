@@ -400,7 +400,6 @@ if (session_status() == PHP_SESSION_NONE) {
         #main-content {
             flex: 1 0 auto;
             padding: 1.5rem;
-            margin-top: 70px;
         }
 
         /* Footer */
